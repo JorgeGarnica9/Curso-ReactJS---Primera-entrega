@@ -1,11 +1,11 @@
 import './ItemListContainer.css';
 
-export default function ItemListContainer() {
+export default function ItemListContainer({greeting}) {
 
     return (
     <>
       <div className='ListContainer'>
-        <h1>Bienvenidos a mi página de inicio</h1>
+        <h1>{greeting}</h1>
       </div>
       
     </>
